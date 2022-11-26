@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Dipendenti_Task</name>
+        <order>100</order>
+        <roles>x_58872_needit.dipendenti_task_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-26 23:00:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c7e29f5b4713111084da7ac8f36d430b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dipendenti_Task</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_app_application_c7e29f5b4713111084da7ac8f36d430b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-26 23:00:04</sys_updated_on>
+        <title>Dipendenti_Task</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b89aed99db3d8590e26fd7c8f49619d2</instance_id>
+        <instance_name>dev125713</instance_name>
+        <name>sys_app_application_c7e29f5b4713111084da7ac8f36d430b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Dipendenti_Task</name><order>100</order><roles>x_58872_needit.dipendenti_task_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-26 23:00:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c7e29f5b4713111084da7ac8f36d430b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Dipendenti_Task</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_app_application_c7e29f5b4713111084da7ac8f36d430b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-26 23:00:04</sys_updated_on><title>Dipendenti_Task</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>20596320</payload_hash>
+        <record_name>Dipendenti_Task</record_name>
+        <reverted_from/>
+        <source>ec60bf264717111084da7ac8f36d43b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-26 23:00:04</sys_created_on>
+        <sys_id>4be29f5b4713111084da7ac8f36d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184b62b561b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-26 23:00:04</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>83e29f5b90131110a763d185d3a1070e</update_guid>
+        <update_guid_history>83e29f5b90131110a763d185d3a1070e:20596320</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Dipendenti_Task">f0c45bdb4713111084da7ac8f36d43d7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-26 23:08:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>082b7c5eedfd4bf0820c53d85eb38764</sys_id>
+        <sys_metadata>c7e29f5b4713111084da7ac8f36d430b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dipendenti_Task</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_app_application_c7e29f5b4713111084da7ac8f36d430b</sys_update_name>
+        <sys_update_version display_value="sys_app_application_c7e29f5b4713111084da7ac8f36d430b">4be29f5b4713111084da7ac8f36d430e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-26 23:08:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
