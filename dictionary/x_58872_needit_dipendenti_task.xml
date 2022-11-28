@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_58872_needit_registro_dipendenti" label="Dipendenti Task" max_length="40" name="x_58872_needit_dipendenti_task" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=COD_PROG" label="COD_PROG" max_length="40" name="u_cod_prog" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=DT_FINE_TASK" label="DT_FINE_TASK" max_length="40" name="u_dt_fine_task" type="glide_date"/>
+        <element attributes="import_attribute_name=ID TASK" label="ID TASK" max_length="40" name="u_id_task" type="integer"/>
+        <element attributes="import_attribute_name=NUMERO TASK" label="NUMERO TASK" max_length="40" name="u_numero_task" type="integer"/>
+    </element>
+</database>
