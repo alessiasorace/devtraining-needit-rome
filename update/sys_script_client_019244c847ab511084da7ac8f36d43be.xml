@@ -4,39 +4,41 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>active</field>
+        <field>priority</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Es Alert User&amp;Short Description</name>
+        <name>Es priority</name>
         <order/>
-        <script><![CDATA[function onLoad() {
-   //Esercizio: compilazione campo Short Descrip e alert con user
-	var user = g_user.getFullName();
-	if(g_form.isNewRecord() && user == "System Administrator"){
-		alert("L'utente connesso è: "+user);
-		g_form.setValue('short_description', "Questo campo si compila solo se sei loggato come sys admin");
-	}
-	
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Esercizio: priority deve essere critical o high, altrimenti è obbligatorio il campo work notes
+	if(newValue > '2')
+		g_form.setMandatory('work_notes', true);
+	else 
+		g_form.setMandatory('work_notes', false);
    
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-27 20:09:24</sys_created_on>
+        <sys_created_on>2022-11-28 16:01:20</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>3ff3f323479f111084da7ac8f36d43ff</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Es Alert User&amp;Short Description</sys_name>
+        <sys_id>019244c847ab511084da7ac8f36d43be</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Es priority</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_script_client_3ff3f323479f111084da7ac8f36d43ff</sys_update_name>
+        <sys_update_name>sys_script_client_019244c847ab511084da7ac8f36d43be</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-28 14:49:19</sys_updated_on>
-        <table>incident</table>
-        <type>onLoad</type>
+        <sys_updated_on>2022-11-28 17:01:56</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onChange</type>
         <ui_type>0</ui_type>
         <view/>
     </sys_script_client>

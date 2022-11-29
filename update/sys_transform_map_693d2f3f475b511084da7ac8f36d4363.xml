@@ -4,7 +4,7 @@
         <copy_empty_fields>false</copy_empty_fields>
         <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
         <enforce_mandatory_fields>No</enforce_mandatory_fields>
-        <name>Dip_task</name>
+        <name>Cambio dati storici</name>
         <order>100</order>
         <run_business_rules>true</run_business_rules>
         <run_script>false</run_script>
@@ -13,19 +13,19 @@
 	// Add your code here
 
 })(source, target, map, log, action==="update");]]></script>
-        <source_table>x_58872_needit_dipendenti_task</source_table>
+        <source_table>x_58872_needit_dati_storici_di_needit</source_table>
         <sys_class_name>sys_transform_map</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-28 11:43:40</sys_created_on>
-        <sys_id>892b07b3471b511084da7ac8f36d43c7</sys_id>
+        <sys_created_on>2022-11-28 14:12:44</sys_created_on>
+        <sys_id>693d2f3f475b511084da7ac8f36d4363</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Dip_task</sys_name>
+        <sys_name>Cambio dati storici</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_transform_map_892b07b3471b511084da7ac8f36d43c7</sys_update_name>
+        <sys_update_name>sys_transform_map_693d2f3f475b511084da7ac8f36d4363</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-28 11:43:40</sys_updated_on>
-        <target_table>x_58872_needit_registro_dipendenti</target_table>
+        <sys_updated_on>2022-11-28 14:12:44</sys_updated_on>
+        <target_table>x_58872_needit_needit</target_table>
     </sys_transform_map>
 </record_update>

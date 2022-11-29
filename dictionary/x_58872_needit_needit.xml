@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="live_feed=true" audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="25" type="collection">
+    <element attributes="live_feed=true" audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="90" type="collection">
         <element label="Città" max_length="40" name="citta" type="string"/>
         <element label="Codice Prodotto" max_length="40" name="codice_prodotto" type="string"/>
         <element label="COD Dip" max_length="100" name="cod_dip" type="string"/>
@@ -11,7 +11,7 @@
         <element label="Must have by" max_length="40" name="must_have_by" type="glide_date"/>
         <element label="Nome" max_length="40" name="nome" type="string"/>
         <element label="Num Telefono Interno" max_length="40" name="num_telefono_interno" type="integer"/>
-        <element label="Request for" max_length="40" name="request_for" type="string"/>
+        <element label="Requested for" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
         <element label="Request type" max_length="40" name="request_type" type="string"/>
         <element label="Ruolo" max_length="40" name="ruolo" type="string"/>
         <element display="true" label="Sesso" max_length="40" name="sesso" type="string"/>
